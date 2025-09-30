@@ -35,6 +35,11 @@ export default tseslint.config(
         }
       }
     },
+    settings: {
+      react: {
+        version: "detect",
+      },
+    },
     plugins: {
       import: importPlugin,
       prettier: prettierPlugin,
